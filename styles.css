@@ -78,6 +78,47 @@ padding: 15px;
 /*border: 5px  rgb(88, 35, 0);*/
 border-radius: 30px;
 }
+a.button {
+	display: inline-block;
+	background: orange;
+	color: rgb(88, 35, 0);
+	padding: 12px;
+	border-radius: 35px;
+	text-decoration: none;
+	font-family: Tahoma;
+	font-size: 18px;
+	line-height: 1;
+	font-weight: 100;
+  }
+  a.buttonvk {
+	display: inline-block;
+	background: rgb(92, 55, 255);
+	color: white;
+	padding: 12px;
+	border-radius: 35px;
+	text-decoration: none;
+	font-family: Tahoma;
+	font-size: 18px;
+	line-height: 1;
+	font-weight: 100;
+  }
+  a.buttoninst {
+	display: inline-block;
+	background: rgb(196, 0, 137);
+	color: white;
+	padding: 12px;
+	border-radius: 35px;
+	text-decoration: none;
+	font-family: Tahoma;
+	font-size: 18px;
+	line-height: 1;
+	font-weight: 100;
+  }
+  
+/*  div {
+	margin: 24px;
+	text-align: center;
+  }*/
 /*.name{
     padding: 15px;
 border: 5px solid rgb(88, 35, 0);

@@ -18,3 +18,20 @@ hr{
 	background-size: 6px 6px;
 
 }
+a.button {
+	display: inline-block;
+	background: orange;
+	color: rgb(88, 35, 0);
+	padding: 12px;
+	border-radius: 35px;
+	text-decoration: none;
+	font-family: Tahoma;
+	font-size: 18px;
+	line-height: 1;
+	font-weight: 100;
+  }
+  
+  div {
+	margin: 24px;
+	text-align: center;
+  }
