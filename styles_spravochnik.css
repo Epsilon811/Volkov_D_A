@@ -5,7 +5,8 @@ body{ background-color: rgb(255, 227, 184);
 color: rgb(88, 35, 0);
 font-size: 18px;
 font-weight: 400;
-font-family: 'Roboto', sans-serif;}
+font-family: 'Roboto', sans-serif;
+margin: auto;}
 hr{
     margin: 20px 0;
 	padding: 0;
