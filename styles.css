@@ -1,7 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-body{ background-color: rgb(245, 252, 187);
+body{ background-color: rgb(255, 227, 184);
 
 color: rgb(88, 35, 0);
 font-size: 18px;
@@ -28,9 +28,9 @@ max-width: 750px;
 margin: auto;
 }
 .social{
-background: rgb(245, 252, 187);
+background: rgba(255, 0, 0, 0.226);
 padding: 15px;
-border: 5px solid rgb(88, 35, 0);
+/*border: 5px  rgb(88, 35, 0); rgba(203, 240, 255, 0.788);*/
 border-radius: 30px;
 }
 a{
@@ -47,6 +47,28 @@ a:active{
 a:visited{
     color:rgb(27, 15, 0)
 }
-.contact{
-    
+
+.contact h2{
+    text-align: center;
+}
+.form-group { 
+        display: block;
+}
+.sprav{ 
+    background: rgba(255, 102, 0, 0.171);
+padding: 15px;
+/*border: 5px  rgb(88, 35, 0);*/
+border-radius: 30px;
+}
+.info2{
+    background: rgba(255, 230, 0, 0.164);
+padding: 15px;
+/*border: 5px  rgb(88, 35, 0);*/
+border-radius: 30px;
+}
+/*.name{
+    padding: 15px;
+border: 5px solid rgb(88, 35, 0);
+border-radius: 30px;
+
 }
