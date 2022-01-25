@@ -38,7 +38,10 @@ a.button {
 	text-align: center;
   }
   .size{
-	display:block; /*Делаем блочный элемент*/
-	margin:auto;/*Задаем автоматический внешний отступ*/
-	width:75%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	margin: 0;
   }
