@@ -37,3 +37,8 @@ a.button {
 	margin: auto;
 	text-align: center;
   }
+  .size{
+	  min-height: 50px;
+	max-width: 750px;
+	margin: auto;
+  }
