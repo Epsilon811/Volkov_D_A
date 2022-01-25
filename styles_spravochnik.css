@@ -38,8 +38,7 @@ a.button {
 	text-align: center;
   }
   .size{
-	  max-height: 50px;
-	  min-height: 50px;
-	max-width: 750px;
-	margin: auto;
+	display:block; /*Делаем блочный элемент*/
+	margin:auto;/*Задаем автоматический внешний отступ*/
+	width:75%;
   }
