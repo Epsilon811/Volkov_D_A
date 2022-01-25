@@ -23,11 +23,11 @@ a.button {
 	display: inline-block;
 	background: orange;
 	color: rgb(88, 35, 0);
-	padding: 12px;
+	padding: 30px;
 	border-radius: 35px;
 	text-decoration: none;
 	font-family: 'Roboto', sans-serif;
-	font-size: 18px;
+	font-size: 54px;
 	line-height: 1;
 	font-weight: 600;
 	margin: auto;
@@ -40,8 +40,7 @@ a.button {
   .size{
 	position: center;
 	
-	max-height: 480px;
-	max-width: 320px;
+
 width: 100%;
 
 
