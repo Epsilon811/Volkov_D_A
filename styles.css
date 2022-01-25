@@ -53,15 +53,7 @@ a{
     text-decoration: none;
 
 }
-a:hover{
-    text-decoration: line-through;
-}
-a:active{
-    color:rgb(255, 230, 0)
-}
-a:visited{
-    color:rgb(27, 15, 0)
-}
+
 
 .contact h2{
     text-align: center;
@@ -81,6 +73,10 @@ padding: 15px;
 /*border: 5px  rgb(88, 35, 0);*/
 border-radius: 30px;
 }
+a.button:hover{background: rgb(255, 0, 0);
+    color: rgb(88, 35, 0);}
+	a.button:active{background: rgb(255, 255, 255);
+		color: rgb(88, 35, 0);}
 a.button {
 	display: inline-block;
 	background: orange;
@@ -93,6 +89,14 @@ a.button {
 	line-height: 1;
 	font-weight: 600;
   }
+  a.buttonvk:hover{
+	background: rgb(255, 255, 255);
+    color: rgb(92, 55, 255);
+  }
+  
+  a.buttonvk:active{
+    background: rgb(255, 255, 255);
+    color: rgb(92, 55, 255);}
   a.buttonvk {
 	display: inline-block;
 	background: rgb(92, 55, 255);
@@ -105,6 +109,11 @@ a.button {
 	line-height: 1;
 	font-weight: 300;
   }
+  a.buttoninst:active{
+    background: rgb(255, 255, 255);
+    color: rgb(196, 0, 137);}
+  a.buttoninst:hover{background: rgb(255, 255, 255);
+    color: rgb(196, 0, 137);}
   a.buttoninst {
 	display: inline-block;
 	background: rgb(196, 0, 137);
