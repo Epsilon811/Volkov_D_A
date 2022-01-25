@@ -10,6 +10,9 @@ font-family: 'Roboto', sans-serif;
 
 /*font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif*/
 }
+img{
+	margin: auto;
+}
 hr{
     margin: 20px 0;
 	padding: 0;
@@ -85,10 +88,10 @@ a.button {
 	padding: 12px;
 	border-radius: 35px;
 	text-decoration: none;
-	font-family: Tahoma;
+	font-family: 'Roboto', sans-serif;
 	font-size: 18px;
 	line-height: 1;
-	font-weight: 100;
+	font-weight: 600;
   }
   a.buttonvk {
 	display: inline-block;
@@ -97,10 +100,10 @@ a.button {
 	padding: 12px;
 	border-radius: 35px;
 	text-decoration: none;
-	font-family: Tahoma;
+	font-family: 'Roboto', sans-serif;
 	font-size: 18px;
 	line-height: 1;
-	font-weight: 100;
+	font-weight: 300;
   }
   a.buttoninst {
 	display: inline-block;
@@ -109,10 +112,10 @@ a.button {
 	padding: 12px;
 	border-radius: 35px;
 	text-decoration: none;
-	font-family: Tahoma;
+	font-family: 'Roboto', sans-serif;
 	font-size: 18px;
 	line-height: 1;
-	font-weight: 100;
+	font-weight: 300;
   }
   
 /*  div {
