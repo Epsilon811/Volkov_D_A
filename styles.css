@@ -95,7 +95,7 @@ a.button:hover{background: rgb(255, 0, 0);
 		color: rgb(88, 35, 0);}
 a.button {
 	display: inline-block;
-	background: orange;
+	background: rgb(255, 115, 0);
 	color: rgb(88, 35, 0);
 	padding: 12px;
 	border-radius: 35px;
@@ -107,7 +107,7 @@ a.button {
   }
   a.buttonvk:hover{
 	display: inline-block;
-	background-image: url(vk_1.png);
+	background-image: url(vk_2.png);
 	padding-left : 50px;
 	padding-top : 25px;
 	padding-bottom : 25px;
@@ -118,7 +118,7 @@ background-repeat : no-repeat;
   
   a.buttonvk:active{
 	display: inline-block;
-	background-image: url(vk_1.png);
+	background-image: url(vk_2.png);
 	padding-left : 50px;
 	padding-top : 25px;
 	padding-bottom : 25px;
@@ -143,11 +143,19 @@ background-repeat : no-repeat;
 	font-weight: 300;*/
   }
   a.buttoninst:active{
-    /*background: rgb(255, 255, 255);
-    color: rgb(196, 0, 137);*/}
+    display: inline-block;
+	background-image: url(insta_2.png);
+	padding-left : 50px;
+	padding-top : 25px;
+	padding-bottom : 25px;
+background-repeat : no-repeat;}
   a.buttoninst:hover{
-	  /*background: rgb(255, 255, 255);
-    color: rgb(196, 0, 137);*/}
+	display: inline-block;
+	background-image: url(insta_2.png);
+	padding-left : 50px;
+	padding-top : 25px;
+	padding-bottom : 25px;
+background-repeat : no-repeat;}
   a.buttoninst {
 	display: inline-block;
 	background-image: url(insta_1.png);
