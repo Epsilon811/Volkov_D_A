@@ -23,9 +23,96 @@ hr{
 	background-size: 6px 6px;
 
 }
+input, ul { display: none;}
+:checked ~ ul {
+	display: inline-block;
+  }
+ 
+#navbar {
+	
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	width: 100px;}
+.menu{
+	float:right;
+	
+}
 .element_math{
 background: rgba(255, 230, 0, 0.164);
 padding: 15px;
 border: 5px solid rgb(88, 35, 0); 
 border-radius: 30px;
 }
+a.button1{
+	display: inline-block;
+	background: rgb(255, 230, 0);
+	color: rgb(88, 35, 0);
+	padding: 8px;
+	border-radius: 35px;
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	line-height: 1;
+	font-weight: 600;
+}
+a.button1:hover{background: rgb(255, 0, 0);
+    color: rgb(88, 35, 0);}
+	a.button1:active{background: rgb(255, 255, 255);
+		color: rgb(88, 35, 0);}
+.conteiner{
+	float:center;
+	text-align: left;
+max-width: 750px;
+margin: auto;
+background-image: left;
+}
+.buttonback {
+	width:88px; 
+	height:118px;
+	position:fixed;
+	
+	}
+.buttonup {
+	width:88px; 
+	height:118px;
+	position:fixed;
+	bottom:20px;
+	right:50px;
+	}
+	a.button:hover{background: rgb(255, 0, 0);
+		color: rgb(88, 35, 0);}
+		a.button:active{background: rgb(255, 255, 255);
+			color: rgb(88, 35, 0);}
+	a.button {
+		display: inline-block;
+		background: rgb(255, 115, 0);
+		color: rgb(88, 35, 0);
+		padding: 12px;
+		border-radius: 35px;
+		text-decoration: none;
+		font-family: 'Roboto', sans-serif;
+		font-size: 18px;
+		line-height: 1;
+		font-weight: 600;
+	  }
+	  a.buttonvk:hover{
+		display: inline-block;
+		background-image: url(vk_2.png);
+		padding-left : 50px;
+		padding-top : 25px;
+		padding-bottom : 25px;
+	background-repeat : no-repeat;
+		/*background: rgb(255, 255, 255);
+		color: rgb(92, 55, 255);*/
+	  }
+	  
+	  a.buttonvk:active{
+		display: inline-block;
+		background-image: url(vk_2.png);
+		padding-left : 50px;
+		padding-top : 25px;
+		padding-bottom : 25px;
+	background-repeat : no-repeat;
+		/*background: rgb(255, 255, 255);
+		color: rgb(92, 55, 255);*/}

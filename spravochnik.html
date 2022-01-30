@@ -6,7 +6,36 @@
     <link href="styles_spravochnik.css" rel="stylesheet" />
 </head>
 <body>
-    <div class="size">
+  <div class="conteiner_right"> 
+    <div class="menu">
+      <input type="checkbox" id="menu">
+<label for="menu"><div class="icon_menu"><img src="menu.png"/> </div></label>
+
+ <ul id="navbar">
+ 
+     <li><a class="button_menu" href="index.html">Главная</a></li>
+ <br>
+
+  
+         <input type="checkbox" id="podmenu">
+      <label for="podmenu"><a class="button_menu" > Справочник инженера </a></label> 
+      <br>
+        <ul id="navbar">
+          <div class="bg_podmenu">
+          <li><a class="button1" href="math.html">Математический анализ</a></li>
+          <br>
+          <li><a class="button1" href="physics.html">Физика</a></li>
+          <br>
+          <li><a class="button1" href="informatics.html">Информатика</a></li>
+      </div>
+      </ul>
+         
+     </ul> 
+  </div>
+   
+  </div>
+  <a href="index.html" title="Вернуться назад" class="buttonback"><img src="back.png"></a>
+  <div class="conteiner"> <div class="size">
     <hr>
     <div>
 
@@ -30,7 +59,8 @@
       
       </div>
     <hr>
-  </div>
+  </div> </div>
+    
   
 </body>
 </html>
