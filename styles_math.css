@@ -100,7 +100,8 @@ margin: auto;
 background-image: left;
 }
 .buttonback {
-	width:88px; 
+	float:left;
+	width:75px; 
 	height:118px;
 	position:fixed;
 	
@@ -124,7 +125,7 @@ background-image: left;
 		border-radius: 35px;
 		text-decoration: none;
 		font-family: 'Roboto', sans-serif;
-		font-size: 32px;
+		font-size: 40px;
 		line-height: 1;
 		font-weight: 600;
 	  }
