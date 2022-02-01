@@ -1,4 +1,4 @@
-<meta http-equiv='refresh' content=3; url='https://epsilon811.github.io/Volkov_D_A/index.html'>
+<meta http-equiv='refresh' content=3 url='https://epsilon811.github.io/Volkov_D_A/index.html'>
 <meta charset="UTF-8" />
 <?php
 
@@ -17,7 +17,7 @@
 
 
 	$address = "epsilon811@yandex.ru";//адрес куда будет отсылаться сообщение для администратора
-	$mes  = "Имя: $name \n";	//в этих строчках мы заполняем текст сообщения. С помощью оператора .= мы просто дополняем текст в переменную
+	$mes  .= "Имя: $name \n";	//в этих строчках мы заполняем текст сообщения. С помощью оператора .= мы просто дополняем текст в переменную
 	$mes .= "E-mail: $email \n";
  	$mes .= "Текст: $body"; 
 	$send = mail ($address,$sub,$mes,"Content-type:text/plain; charset = UTF-8\r\nFrom:$email");//собственно сам вызов функции отправки сообщения на сервере
