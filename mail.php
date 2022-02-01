@@ -1,4 +1,4 @@
-<meta http-equiv='refresh' content=3; url='https://epsilon811.github.io/Volkov_D_A/index.html'>
+<meta http-equiv='refresh' content='3; url=https://epsilon811.github.io/Volkov_D_A/index.html'>
 <meta charset="UTF-8" />
 <?php
 
