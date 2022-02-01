@@ -77,6 +77,21 @@ a.button1:hover{background: rgb(255, 0, 0);
 	padding: 8px;
 	border-radius: 35px;
   }
+.sv input:hover {
+	background: rgb(255, 0, 0);
+	color: rgb(88, 35, 0);
+	padding: 8px;
+	border-radius: 35px;}
+	.pol textarea:hover {
+		background: rgba(94, 1, 102, 1);
+		color: rgb(255, 255, 255);
+		padding: 8px;
+		border-radius: 24px;}
+		.pol input:hover {
+			background: rgba(94, 1, 102, 1);
+			color: rgb(255, 255, 255);
+			padding: 8px;
+			border-radius: 24px;}
   .pol textarea{
 	
 	background: rgba(94, 1, 102, 0.521);
