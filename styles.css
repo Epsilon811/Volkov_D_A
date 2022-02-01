@@ -8,15 +8,13 @@ color: rgb(0, 0, 0);
 font-size: 18px;
 font-weight: 400;
 font-family: 'Roboto', sans-serif;
+
 /*font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif*/
 }
 img{
 	margin: auto;
 }
-input, ul { display: none;}
-:checked ~ ul {
-	display: inline-block;
-  }
+
  
 #navbar {
 	
@@ -68,7 +66,33 @@ a.button1:hover{background: rgb(255, 0, 0);
     margin: 0;
     font-style:italic;
 }
+ .conteiner_right input{ display: none;}
+ .conteiner_right ul{ display: none;}
+:checked ~ ul {
+	display: inline-block;
+  }
+  .sv input{
+	background: rgba(255, 187, 0, 0.808);
+	color: rgb(88, 35, 0);
+	padding: 8px;
+	border-radius: 35px;
+  }
+  .pol textarea{
+	
+	background: rgba(94, 1, 102, 0.521);
+	color: rgb(255, 255, 255);
+	padding: 8px;
+	border-radius: 24px;
+  }
+ .pol input{
+	background: rgba(94, 1, 102, 0.521);/*rgba(255, 230, 0, 0.466);*/
+	color: rgb(255, 255, 255);
+	padding: 8px;
+	border-radius: 35px;
+ }
+	
 .conteiner_right{
+
 	float:right;
 
 }
