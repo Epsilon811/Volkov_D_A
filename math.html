@@ -7,6 +7,7 @@
     <link href="styles_math.css" rel="stylesheet" />
 </head>
 <body>
+    <script src="script.js"></script>
     <div class="conteiner_right">
         <div class="menu">
         <input type="checkbox" id="menu">
@@ -33,7 +34,7 @@
            
        </ul> 
     </div>
-        <a href="math.html" title="Вернуться вверх" class="buttonup"><img src="naverx.png"></a>
+        <a href="math.html"   class="buttonup" onclick="return up()" ><img src="naverx.png"></a>
         <a href="spravochnik.html" title="Вернуться назад" class="buttonback"><img src="back.png"></a>
     </div>
 <div class="conteiner">
@@ -88,7 +89,10 @@
 <a href="#macloren" class="button"> Таблица разложения по Маклорену </a>
 <br>
 <br>
-<a href="#integral" class="button"> Интегралы </a>
+<a href="#integral" class="button"> Неопределённый интеграл </a>
+<br>
+<br>
+<a href="#opintegral" class="button"> Определённый интеграл </a>
 <br>
 <br>
 <hr>
@@ -238,6 +242,9 @@
 <h2>Таблица производных:</h2>
 <img src="tabl_proizv.gif"/>
 <br>
+<hr>
+<br>
+<img src="proizv_sl_func.gif"/>
 <hr>
 <b>Дифференцирование</b>
 <br>
@@ -508,8 +515,28 @@
 <br>
 <img src="integ_po_chastyam_primer.jpg" height="200"/>
 </div>
-
 <br>
+<div class="element_math">
+    <h2 id="opintegral">Определённый интеграл</h2>
+<br>
+<b>Определение №1:</b>
+<p>Приращение <b>F(b)-F(a)</b> любой из первообразных <b>F(x)+C</b> функции <b>f(x)</b> при изменении аргумента 
+от <b>x=a</b> до <b>x=b</b> называется определённым интегралом Ньютона от функции <b>f(x)</b> в пределах от <b>a</b> до <b>b</b></p>
+<img src="opred_op_integrala.jpg" height="200"/>
+<hr>
+<b>Формула Ньютона-Лейбница:</b>
+<br>
+<img src="nyuton_leybnic.jpg" height="100"/>
+<br>
+<hr>
+<b>Определённый интеграл как предел интегральной суммы:</b>
+<br>
+<p>Нахождение площади криволинейной трапеции:</p>
+<p>Пусть функция <b>y=f(x)</b> определена на отрезке <b>[a,b]</b>, <b> a < b </b>.</p>
+<p>Выполним следующие действия:</p>
+<hr>
+
+
 </div>
 </body>
 </html>

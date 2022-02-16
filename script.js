@@ -1,4 +1,9 @@
-const lastName= 'VolkOFF'
-let age = 18
-
-console.log(lastName)
+var t;
+function up() {
+	var top = Math.max(document.body.scrollTop,document.documentElement.scrollTop);
+	if(top > 0) {
+		window.scrollBy(0,-600);
+		t = setTimeout('up()',20);
+	} else clearTimeout(t);
+	return false;
+}
