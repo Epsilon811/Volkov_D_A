@@ -1,14 +1,13 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Roboto&display=swap');
 
 body{ background-color: rgb(255, 227, 184);
 
 /*color: rgb(88, 35, 0);*/
-color: rgb(0, 0, 0);
+color: rgb(88, 35, 0);
 font-size: 18px;
 font-weight: 400;
-font-family: 'Roboto', sans-serif;
-
+font-family: 'Akaya Telivigala', cursive;
 /*font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif*/
 }
 img{
@@ -145,34 +144,44 @@ a{
 .form-group { 
         display: block;
 }
-.sprav{ 
+a.sprav{ 
     background: rgba(255, 102, 0, 0.493);
-padding: 15px;
-/*border: 5px  rgb(88, 35, 0);*/
-border-radius: 30px;
+	margin-block-end: auto;
+	width: 650px;
+	display:inline-block;
+	color: rgb(88, 35, 0);
+	border-radius: 30px;
+	font-size: 58px;
+	padding-block: 15px;
 }
+a.sprav:hover{background: rgba(255, 102, 0, 0.836);
+    color: rgb(88, 35, 0);}
+	a.sprav:active{background: rgba(255, 102, 0, 0.836);
+		color: rgb(88, 35, 0);}
+a.biblio
+{
+	margin-block-end: auto;
+	width: 650px;
+	display:inline-block;
+	background: rgba(81, 255, 0, 0.493);
+	color: rgb(88, 35, 0);
+	border-radius: 30px;
+	font-size: 58px;
+	padding-block: 15px;
+}
+a.biblio:hover{background: rgba(81, 255, 0, 0.836);
+    color: rgb(88, 35, 0);}
+	a.biblio:active{background: rgba(81, 255, 0, 0.836);
+		color: rgb(88, 35, 0);}
 .info2{
     background: rgba(255, 230, 0, 0.432);
 padding: 15px;
 /*border: 5px  rgb(88, 35, 0);*/
 border-radius: 30px;
 }
-a.button:hover{background: rgb(255, 0, 0);
-    color: rgb(88, 35, 0);}
-	a.button:active{background: rgb(255, 255, 255);
-		color: rgb(88, 35, 0);}
-a.button {
-	display: inline-block;
-	background: rgb(255, 115, 0);
-	color: rgb(88, 35, 0);
-	padding: 12px;
-	border-radius: 35px;
-	text-decoration: none;
-	font-family: 'Roboto', sans-serif;
-	font-size: 18px;
-	line-height: 1;
-	font-weight: 600;
-  }
+
+
+
   a.buttonvk:hover{
 	display: inline-block;
 	background-image: url(vk_2.png);
