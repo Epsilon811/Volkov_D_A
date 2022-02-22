@@ -1,8 +1,5 @@
 body{ 
     background-color: rgb(255, 227, 184);
-    background-image: url(biblio_bg.jpg);
-    background-repeat: no-repeat;
-    background-position-x: center;
     /*color: rgb(88, 35, 0);*/
     color: rgb(88, 35, 0);
     font-size: 18px;
@@ -80,3 +77,12 @@ body{
         color: rgb(88, 35, 0);}
         a.button1:active{background: rgb(255, 255, 255);
             color: rgb(88, 35, 0);}
+            .conteiner{
+                background-image: url(biblio_bg.jpg);
+                float:center;
+                text-align: center;
+            max-width: 700px;
+            background-image: center;
+            margin: auto;
+            padding-bottom: 630px;
+            }
