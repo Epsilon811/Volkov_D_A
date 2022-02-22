@@ -1,0 +1,82 @@
+body{ 
+    background-color: rgb(255, 227, 184);
+    background-image: url(biblio_bg.jpg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    /*color: rgb(88, 35, 0);*/
+    color: rgb(88, 35, 0);
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Akaya Telivigala', cursive;
+    /*font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif*/
+    }
+
+    a.button{
+        display: inline-block;
+        background: rgba(255, 255, 255, 0.877);
+        color: rgb(88, 35, 0);
+        padding: 8px;
+        border-radius: 35px;
+        text-decoration: none;
+        font-family: 'Akaya Telivigala', cursive;
+        font-size: 15px;
+        line-height: 1;
+        font-weight: 600;
+    }
+    .tab
+    {
+        width: 950px;
+        margin: auto;
+    
+    }
+    .conteiner_right{
+        float:right;
+    }
+    input, ul { display: none;}
+  :checked ~ ul {
+      display: inline-block;
+    }
+   
+  #navbar {
+      
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+      width: 100px;}
+      .buttonback {
+        width:88px; 
+        height:118px;
+        float:left;
+    }
+    a.button_menu{
+        display: inline-block;
+        background: rgb(255, 115, 0);
+        color: rgb(88, 35, 0);
+        padding: 12px;
+        border-radius: 35px;
+        text-decoration: none;
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        line-height: 1;
+        font-weight: 600;
+    }
+    a.button_menu:hover{background: rgb(255, 0, 0);
+        color: rgb(88, 35, 0);}
+        a.button_menu:active{background: rgb(255, 255, 255);
+            color: rgb(88, 35, 0);}
+    a.button1{
+        display: inline-block;
+        background: rgb(255, 230, 0);
+        color: rgb(88, 35, 0);
+        padding: 8px;
+        border-radius: 35px;
+        text-decoration: none;
+        font-family: 'Roboto', sans-serif;
+        font-size: 15px;
+        line-height: 1;
+        font-weight: 600;
+    }
+    a.button1:hover{background: rgb(255, 0, 0);
+        color: rgb(88, 35, 0);}
+        a.button1:active{background: rgb(255, 255, 255);
+            color: rgb(88, 35, 0);}

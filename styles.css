@@ -34,6 +34,22 @@ hr{
 	background-size: 6px 6px;
 
 }
+a.button_menu{
+	display: inline-block;
+	background: rgb(255, 115, 0);
+	color: rgb(88, 35, 0);
+	padding: 12px;
+	border-radius: 35px;
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	line-height: 1;
+	font-weight: 600;
+}
+a.button_menu:hover{background: rgb(255, 0, 0);
+	color: rgb(88, 35, 0);}
+	a.button_menu:active{background: rgb(255, 255, 255);
+		color: rgb(88, 35, 0);}
 
 a.button1{
 	display: inline-block;
